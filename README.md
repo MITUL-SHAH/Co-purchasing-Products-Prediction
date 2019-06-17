@@ -9,11 +9,16 @@ Also, other measures are used to know the top n products for recommendation syst
 2) To predict whether 2 products are co-purchasing product or not?: Dataset is generated with each row as pair of products and with help of other features like Category Similarity, Title Similarity and Salesrank , we are able to predict whether that pair of products are co-purchasing or not? (Yes or No) . 
 Various Supervised Machine Learning algorithms are applied in order to predict whether given pair of products are co-purchasing or not? Highest accuracy of 97% is achieved in this task through logistic regression model.
 For each product the following information is available:
-• Title
-• Salesrank
-• List of similar products (that get co-purchased with the current product)
-• Detailed product categorization
-• Product reviews: time, customer, rating, number of votes, number of people that found the
+
+i) Title 
+
+ii) Salesrank
+
+iii) List of similar products (that get co-purchased with the current product)
+
+iv) Detailed product categorization
+
+v) Product reviews: time, customer, rating, number of votes, number of people that found the
 review helpful.
 
 The dataset uploaded here is processed using Pre-Processing.ipynb file from original amazon-meta.txt file.
